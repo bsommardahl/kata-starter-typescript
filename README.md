@@ -1,8 +1,17 @@
-# Leeds Code Dojo Strong Pair Programming, Diamond Kata
+# Diamond Kata Starter
+
+## Installation
+
+```
+npm i -g typescript
+npm i
+```
+
+## The Kata
 
 (Extended/Inspired from Seb Rose's Diamond kata at http://cyber-dojo.org/ )
 
-## 1. Sparkly Diamonds
+### 1. Sparkly Diamonds
 
 Given a number, print a diamond made up of asterisks (\*)
 
@@ -29,7 +38,7 @@ For example:
      *
 ```
 
-## 2. Alphabet Diamonds 
+### 2. Alphabet Diamonds 
 
 *printDiamond('E')*
 ```
@@ -53,7 +62,7 @@ C   C
   A
 ```
 
-## 3. Mega Alpha Diamonds
+### 3. Mega Alpha Diamonds
 
 *printDiamond('F')*
 ```
@@ -70,7 +79,7 @@ F E D C B A B C D E F
           F
 ```
 
-## 4. Just go for Coffee already!
+### 4. Just go for Coffee already!
 *printDiamond('D')*
 ```
         A

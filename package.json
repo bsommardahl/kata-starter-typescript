@@ -1,0 +1,29 @@
+{
+  "name": "environment",
+  "version": "1.0.0",
+  "description": "(Extended/Inspired from Seb Rose's Diamond kata at http://cyber-dojo.org/ )",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "watch": "jest --watch",
+    "start": "npm run watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AcklenAvenue/diamond-kata-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AcklenAvenue/diamond-kata-typescript/issues"
+  },
+  "homepage": "https://github.com/AcklenAvenue/diamond-kata-typescript#readme",
+  "devDependencies": {
+    "@types/jest": "^23.3.12",
+    "jest": "^23.6.0",
+    "prettier": "1.15.3",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.2"
+  }
+}
