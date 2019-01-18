@@ -1,4 +1,4 @@
-# Diamond Kata Starter
+# Acklen Avenue/HeroUnit Kata Starter
 
 ## Installation
 
@@ -7,86 +7,18 @@ npm i -g typescript
 npm i
 ```
 
-## The Kata
+## The Acklen Coin Kata
 
-(Extended/Inspired from Seb Rose's Diamond kata at http://cyber-dojo.org/ )
+We will develop a new type of crypto-currency and exchange (minus the cryto).
 
-### 1. Sparkly Diamonds
+### Requirements
+1. Mike can generate a new coin.
+2. Mike can give the coin to Juan.
+3. Juan can put the coin in a bank account (does not change ownership).
+4. Juan can withdraw coin from the bank account.
+5. Every movement of a coin is recorded to a coin's history.
+6. Juan can undo a coin movement within 10 seconds of transaction (returns the coin to previous state).
 
-Given a number, print a diamond made up of asterisks (\*)
-
-The number passed to your function indicates the number of rows of stars to print until it reaches the widest point of the diamond.
-
-For example:
-
-*printDiamond(3);*
-```
-    *
-   * *
-  *   *
-   * *
-    *
-```
-*printDiamond(4):*
-```
-     *
-    * *
-   *   *
-  *     *
-   *   *
-    * *
-     *
-```
-
-### 2. Alphabet Diamonds 
-
-*printDiamond('E')*
-```
-    A
-   B B
-  C   C
- D     D
-E       E
- D     D
-  C   C
-   B B
-    A
-```
-
-*printDiamond('C')*
-```
-  A
- B B
-C   C
- B B
-  A
-```
-
-### 3. Mega Alpha Diamonds
-
-*printDiamond('F')*
-```
-          F
-        F E F
-      F E D E F
-    F E D C D E F
-  F E D C B C D E F
-F E D C B A B C D E F
-  F E D C B C D E F
-    F E D C D E F
-      F E D E F
-        F E F
-          F
-```
-
-### 4. Just go for Coffee already!
-*printDiamond('D')*
-```
-        A
-       B L
-      C   K
-     D     J
-      E   I
-       F H
-        G
-```
+### Rules
+1. Strict Red-Green-Refactor
+2. Dueling Devs Pairing Pattern
