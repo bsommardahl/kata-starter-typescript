@@ -1,24 +1,23 @@
 {
-  "name": "environment",
+  "name": "acklen-coin-kata",
   "version": "1.0.0",
-  "description": "(Extended/Inspired from Seb Rose's Diamond kata at http://cyber-dojo.org/ )",
+  "description": "A starting point for the Acklen Coin kata.",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "watch": "jest --watch",
-    "start": "npm run watch"
+    "start": "jest --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AcklenAvenue/diamond-kata-typescript.git"
+    "url": "git+https://github.com/AcklenAvenue/coin-kata-typescript.git"
   },
-  "author": "",
+  "author": "Byron Sommardahl",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AcklenAvenue/diamond-kata-typescript/issues"
+    "url": "https://github.com/AcklenAvenue/coin-kata-typescript/issues"
   },
-  "homepage": "https://github.com/AcklenAvenue/diamond-kata-typescript#readme",
+  "homepage": "https://github.com/AcklenAvenue/coin-kata-typescript#readme",
   "devDependencies": {
     "@types/jest": "^23.3.12",
     "jest": "^23.6.0",
