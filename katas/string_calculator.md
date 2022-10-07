@@ -10,6 +10,7 @@ https://osherove.com/tdd-kata-1
 - Verbalize thoughts and code
 - Follow the process strictly
 - No copy/pasta
+- No console.log's
 - No Regex
 
 ### Process:
