@@ -2,16 +2,28 @@
 
 https://osherove.com/tdd-kata-1
 
-### Rules:
+### What are we building?
 
-- Write one spec at a time.
-- All previously passing specs must continue to pass
-- All new specs must fail for the right reasons before making them pass
-- Verbalize thoughts and code
-- Follow the process strictly
+Remember those Texas Instruments calculators from back in high school and college? We're going to build the logic that handles the calculation after the user hits the "equal" button. 
+
+- When you think about the input before the "equal" button (with all the symbols and numbers), what data type would you say is the input that will go into the calculate function? (Answer: string)
+- And after the calculation is complete, we ideally end up with what data type? (Answer: number) -- Maybe string, but that's what it becomes when it goes back out to the LCD screen, perhaps.
+
+So, we will be building that function, but only for addition (sums). This new calculator function will be more innovative than those of the past. We will build in the ability to use OTHER symbols than just the "plus sign" (+). We will even give the user the ability to configure multiple custom symbols and multi-character symbols that could represent addition operations.
+
+### Rules:
+ 
+- Write one test at a time.
+- Each test we write should fail for the right reasons BEFORE we implement the solution
+- Once we have a test that is failing for the right reasons, the test is "locled". No modifications allowed to locked tests.
+- When we implement, we should shoot for the simplest solution to make the failing test pass
+- All previously passing specs must continue to pass (you break em, you fix em)
+- All new specs must fail for the right reasons before making them pass (explain why)
+- Always verbalize thoughts and code
 - No copy/pasta
 - No console.log's
 - No Regex
+- Yes google!! (on screen)
 
 ### Process:
 
