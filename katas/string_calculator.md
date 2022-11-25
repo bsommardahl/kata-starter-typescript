@@ -15,6 +15,7 @@ So, we will be building that function, but only for addition (sums). This new ca
  
 - Write one test at a time.
 - Each test we write should fail for the right reasons BEFORE we implement the solution
+- Failure for the "right reason" should be explainable from the perspective of "logic" (compile errors don't count).
 - Once we have a test that is failing for the right reasons, the test is "locled". No modifications allowed to locked tests.
 - When we implement, we should shoot for the simplest solution to make the failing test pass
 - All previously passing specs must continue to pass (you break em, you fix em)
