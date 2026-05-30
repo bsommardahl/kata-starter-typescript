@@ -1,3 +1,3 @@
-export function jump():string {    
-    return 'how high?';
+export function calc(_: string):number {    
+    return -1;
 }
