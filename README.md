@@ -1,4 +1,4 @@
-# Acklen Avenue Kata Starter
+# Typescript Kata Starter
 
 ## Installation
 
@@ -11,3 +11,4 @@ npm i
 
 - [Coin Kata](katas/coin.md)
 - [Dispatcher Kata](katas/dispatcher.md)
+- [String Calculator](katas/string_calculator.md)
