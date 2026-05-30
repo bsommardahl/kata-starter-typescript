@@ -1,3 +1,3 @@
-export function calc(_: string):number {    
-    return -1;
+export function calc(_: string): number {
+  return 0;
 }
