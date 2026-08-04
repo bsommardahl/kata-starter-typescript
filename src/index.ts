@@ -3,5 +3,5 @@ export function calc(_input: string): number {
     return Number(_input);
   
   let numbers = _input.split(",");
-  return Number(numbers[0]) + Number(numbers[1]);
+  return numbers.map(x=> Number(x)).reduce((sum, next) => sum + next, 0);
 }
