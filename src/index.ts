@@ -6,6 +6,11 @@ export function calc(_input: string): number {
     _input = parts[1];
   }
 
-  let numbers = _input.replace("\n", delim).split(delim);
-  return numbers.map(x=> Number(x)).reduce((sum, next) => sum + next, 0);
+  let numbers = _input.replace("\n", delim).split(delim).map(x=> Number(x));
+
+  let negatives = numbers.filter(n => n < 0);
+  if(negatives.length > 0)
+    throw new Error("Negatives not allowed: " + negatives[0]);
+
+  return numbers.reduce((sum, next) => sum + next, 0);
 }
