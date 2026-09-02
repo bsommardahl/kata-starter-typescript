@@ -5,8 +5,7 @@ export function calc(_input: string): number {
     const numbers = _input.split(',').map(i => {
       return parseInt(i)
     });
-    let sum: number = numbers[0] + numbers[1];
-    return sum;
+    return numbers.reduce((a,b) => a+b,0);
   }
   return 3;
 }
