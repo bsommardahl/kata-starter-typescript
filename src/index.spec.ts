@@ -22,6 +22,11 @@ describe("when calculating 2 number", () => {
 })
 
 // 4. Given the user input is an unknown amount of numbers when calculating the sum then it should return the sum of all the numbers. (example "1,2,3" should equal 6)
+describe("an unknown amount of numbers sum should be the total sum of all numbers", () => {
+  it("should return the total sum of all numbers", () => {
+    expect(calc("1,2,3")).toEqual(6)
+  })
+})
 // 5. Given the user input is multiple numbers with new line and comma delimiters when calculating the sum then it should return the sum of all the numbers. (example "1\n2,3" should equal 6)
 // 6. Given the user input is multiple numbers with a custom single-character delimiter when calculating the sum then it should return the sum of all the numbers. (example “//;\n1;2” should return 3)
 // 7. Given the user input contains one negative number when calculating the sum then it should throw an exception "negatives not allowed: x" (where x is the negative number).
